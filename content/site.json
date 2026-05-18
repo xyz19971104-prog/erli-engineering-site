@@ -1,0 +1,163 @@
+{
+  "site": {
+    "name": "二里半教育 × 二里科技",
+    "title": "工程技术培训与自动化设计服务官网",
+    "footer": "© 2026 二里半教育 × 二里科技 · All rights reserved.",
+    "nav": [
+      { "text": "首页", "href": "index.html" },
+      { "text": "机械设计培训", "href": "mechanical.html" },
+      { "text": "嵌入式开发培训", "href": "embedded.html" },
+      { "text": "自动化解决方案", "href": "automation.html" },
+      { "text": "关于我们", "href": "about.html" },
+      { "text": "联系合作", "href": "contact.html" }
+    ]
+  },
+  "home": {
+    "heroTitle": "工程人才培养 × 企业项目落地",
+    "heroText": "以“技术教学 + 项目实战 + 工程交付”构建完整价值闭环，服务个人成长与企业升级。",
+    "ctaText": "联系合作",
+    "businessEntrances": [
+      {
+        "name": "机械设计培训｜二里半教育",
+        "intro": "聚焦机械工程岗位能力培养，覆盖软件基础、选型设计与产线项目实战。",
+        "button": "查看机械培训",
+        "link": "mechanical.html"
+      },
+      {
+        "name": "嵌入式开发培训｜二里科技",
+        "intro": "从底层开发到应用层项目，构建可就业、可上手、可交付的嵌入式能力体系。",
+        "button": "查看嵌入式培训",
+        "link": "embedded.html"
+      },
+      {
+        "name": "自动化设备设计解决方案",
+        "intro": "承接企业非标自动化设备设计订单，提供方案评估、结构设计与工程资料交付。",
+        "button": "查看自动化方案",
+        "link": "automation.html"
+      }
+    ]
+  },
+  "mechanical": {
+    "pageTitle": "机械设计培训",
+    "pageSubtitle": "软件基础到产线项目实战的系统化学习路径",
+    "learningPath": [
+      "软件基础",
+      "选型基础",
+      "选型设计实战",
+      "产线项目",
+      "就业指导"
+    ],
+    "projects": [
+      {
+        "name": "粉末颗粒物料自动装袋线体",
+        "desc": "完成上料、计量、封装与输送线体设计，训练模块化设备拆解与整线协同能力。"
+      },
+      {
+        "name": "钛蓝清洗设备",
+        "desc": "围绕清洗节拍与稳定性要求，进行结构优化、工艺匹配与工程图输出。"
+      },
+      {
+        "name": "复合材料拉削设备",
+        "desc": "从机构传动到受力分析，建立复杂工况下设备设计与校核思维。"
+      },
+      {
+        "name": "飞利浦剃须刀自动组装线实战设计",
+        "desc": "基于真实产线需求进行站位布局、夹治具规划与关键机构设计实战。"
+      }
+    ],
+    "primaryButton": "立即咨询",
+    "secondaryButton": "填写需求"
+  },
+  "embedded": {
+    "pageTitle": "嵌入式开发培训",
+    "pageSubtitle": "覆盖底层到应用层的工程化开发路径",
+    "learningDirections": [
+      "C语言基础",
+      "STM32 / MCU开发",
+      "RTOS项目",
+      "Linux应用开发",
+      "Qt应用开发 / 嵌入式Linux应用层界面开发 / 项目应用开发",
+      "智能硬件项目",
+      "工业数据采集项目"
+    ],
+    "projects": [
+      { "name": "智能温控风扇", "desc": "完成传感采集、控制算法与硬件联调，构建闭环控温项目经验。" },
+      { "name": "环境监测网关", "desc": "实现多传感器接入、边缘数据处理与远程上报。" },
+      { "name": "工业数据采集系统", "desc": "完成现场总线通信、数据清洗与稳定上传机制开发。" },
+      { "name": "车载中控系统", "desc": "围绕人机交互与模块联动，实践嵌入式应用层架构设计。" },
+      { "name": "室内四轴飞行器", "desc": "训练姿态控制、实时任务调度与系统调参能力。" },
+      { "name": "智能扫地机器人", "desc": "实践路径规划、运动控制与多模块协作开发。" }
+    ],
+    "primaryButton": "立即咨询",
+    "secondaryButton": "填写需求"
+  },
+  "automation": {
+    "pageTitle": "自动化解决方案",
+    "pageSubtitle": "承接企业非标自动化设备设计与工程资料交付",
+    "serviceCapabilities": [
+      "非标自动化设备设计",
+      "自动化产线方案设计",
+      "机械结构设计",
+      "工装夹具设计",
+      "标准件选型与计算",
+      "工程图输出",
+      "BOM整理",
+      "设备方案沟通",
+      "项目技术支持"
+    ],
+    "flow": [
+      "需求沟通",
+      "方案评估",
+      "结构设计",
+      "图纸输出",
+      "修改确认",
+      "资料交付"
+    ],
+    "primaryButton": "立即咨询",
+    "secondaryButton": "填写需求"
+  },
+  "about": {
+    "pageTitle": "关于我们",
+    "brandA": {
+      "name": "二里半教育",
+      "intro": "专注工程技术人才培养，以项目制课程体系帮助学员形成可就业、可实战的专业能力。"
+    },
+    "brandB": {
+      "name": "二里科技",
+      "intro": "面向企业提供非标自动化设备设计、技术支持与工程资料交付服务。"
+    }
+  },
+  "contact": {
+    "pageTitle": "联系合作",
+    "pageSubtitle": "课程咨询与项目合作双通道",
+    "cards": [
+      {
+        "title": "机械设计课程咨询",
+        "intro": "了解课程安排、学习路径与就业支持。",
+        "primaryButton": "立即咨询",
+        "secondaryButton": "填写需求",
+        "formUrlKey": "mechanicalFormUrl"
+      },
+      {
+        "title": "嵌入式开发课程咨询",
+        "intro": "获取学习方向、项目安排与能力提升建议。",
+        "primaryButton": "立即咨询",
+        "secondaryButton": "填写需求",
+        "formUrlKey": "embeddedFormUrl"
+      },
+      {
+        "title": "自动化设备设计服务合作",
+        "intro": "对接企业项目需求，快速进入方案评估阶段。",
+        "primaryButton": "立即咨询",
+        "secondaryButton": "填写需求",
+        "formUrlKey": "automationFormUrl"
+      }
+    ]
+  },
+  "links": {
+    "contactPage": "contact.html",
+    "mechanicalFormUrl": "#",
+    "embeddedFormUrl": "#",
+    "automationFormUrl": "#"
+  }
+}
