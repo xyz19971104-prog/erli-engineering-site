@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>尔理工程教育 | 品牌官网</title>
+    <style>
+      :root {
+        --bg: #f6f8fb;
+        --card: #ffffff;
+        --primary: #0b4fa3;
+        --primary-soft: #eaf2ff;
+        --text: #1d2a39;
+        --muted: #617083;
+        --border: #dbe3ee;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.65;
+      }
+      header {
+        background: linear-gradient(135deg, #0b4fa3, #0f69d1);
+        color: #fff;
+        padding: 48px 20px 64px;
+      }
+      .container { max-width: 1100px; margin: 0 auto; }
+      h1 { margin: 0 0 12px; font-size: 2rem; }
+      .subtitle { margin: 0; opacity: .92; }
+      nav {
+        margin-top: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid rgba(255,255,255,.4);
+        padding: 6px 12px;
+        border-radius: 999px;
+        font-size: .92rem;
+      }
+      main { padding: 28px 20px 60px; }
+      section {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 24px;
+        margin-bottom: 18px;
+      }
+      h2 { margin: 0 0 14px; font-size: 1.35rem; color: var(--primary); }
+      h3 { margin: 16px 0 8px; font-size: 1.05rem; }
+      ul { margin: 8px 0 0; padding-left: 18px; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 14px;
+      }
+      .card {
+        background: var(--primary-soft);
+        border-radius: 10px;
+        padding: 14px;
+      }
+      .muted { color: var(--muted); }
+      form {
+        display: grid;
+        gap: 12px;
+        margin-top: 12px;
+      }
+      input, select, textarea, button {
+        font: inherit;
+        padding: 10px 12px;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+      }
+      textarea { min-height: 120px; resize: vertical; }
+      button {
+        background: var(--primary);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      footer {
+        text-align: center;
+        color: var(--muted);
+        padding: 24px 16px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>尔理工程教育</h1>
+        <p class="subtitle">品牌官网 · 工程人才培养与自动化项目落地</p>
+        <nav>
+          <a href="#home">首页</a>
+          <a href="#mechanical">机械设计培训</a>
+          <a href="#embedded">嵌入式开发培训</a>
+          <a href="#automation">自动化解决方案</a>
+          <a href="#about">关于我们</a>
+          <a href="#contact">联系合作</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="home">
+        <h2>首页：品牌和三大业务入口</h2>
+        <p class="muted">围绕“培训 + 项目 + 交付”构建闭环，让学员与企业都能获得可验证的结果。</p>
+        <div class="grid">
+          <div class="card">
+            <h3>机械设计培训</h3>
+            <p>从机械基础到整机设计，聚焦可就业与可上岗能力。</p>
+          </div>
+          <div class="card">
+            <h3>嵌入式开发培训</h3>
+            <p>从底层驱动到系统应用，覆盖主流 MCU/SoC 开发流程。</p>
+          </div>
+          <div class="card">
+            <h3>自动化解决方案</h3>
+            <p>面向制造场景，提供方案设计、实施部署与交付运维。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="mechanical">
+        <h2>机械设计培训：课程主线 + 机械教学项目</h2>
+        <h3>课程主线</h3>
+        <ul>
+          <li>工程制图与公差标注</li>
+          <li>机械原理与机构设计</li>
+          <li>SolidWorks/Inventor 三维建模</li>
+          <li>装配、仿真与工程出图</li>
+          <li>BOM、工艺与制造可行性评审</li>
+        </ul>
+        <h3>机械教学项目</h3>
+        <ul>
+          <li>自动分拣机构设计与优化</li>
+          <li>小型输送线夹具与防呆结构开发</li>
+          <li>非标设备子模块从建模到出图实战</li>
+        </ul>
+      </section>
+
+      <section id="embedded">
+        <h2>嵌入式开发培训：学习路径 + 嵌入式教学项目</h2>
+        <h3>学习路径</h3>
+        <ul>
+          <li>C 语言与数据结构基础</li>
+          <li>MCU 架构、寄存器与外设驱动</li>
+          <li>RTOS 任务调度与系统调优</li>
+          <li>通信协议（UART/CAN/SPI/I2C/MQTT）</li>
+          <li>嵌入式 Linux 与应用层开发</li>
+        </ul>
+        <h3>嵌入式教学项目</h3>
+        <ul>
+          <li>环境监测终端：采集、上传与告警</li>
+          <li>电机控制器：闭环控制与参数整定</li>
+          <li>边缘网关：多协议接入与远程管理</li>
+        </ul>
+      </section>
+
+      <section id="automation">
+        <h2>自动化解决方案：服务范围 + 交付内容 + 合作流程</h2>
+        <h3>服务范围</h3>
+        <ul>
+          <li>产线自动化改造评估</li>
+          <li>设备联机与数据采集系统建设</li>
+          <li>控制系统升级与稳定性优化</li>
+        </ul>
+        <h3>交付内容</h3>
+        <ul>
+          <li>技术方案书、风险评估与预算清单</li>
+          <li>实施计划、现场调试与验收报告</li>
+          <li>运维文档、培训与持续支持</li>
+        </ul>
+        <h3>合作流程</h3>
+        <ol>
+          <li>需求沟通与现场调研</li>
+          <li>方案确认与项目立项</li>
+          <li>开发实施与阶段评审</li>
+          <li>联调验收与运维交接</li>
+        </ol>
+      </section>
+
+      <section id="about">
+        <h2>关于我们：双品牌介绍</h2>
+        <div class="grid">
+          <div>
+            <h3>品牌一：尔理工程教育</h3>
+            <p>聚焦工程师培养，提供机械与嵌入式方向的体系化课程与项目制学习。</p>
+          </div>
+          <div>
+            <h3>品牌二：尔理自动化</h3>
+            <p>面向企业客户，提供自动化方案咨询、系统集成与项目交付服务。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>联系合作：课程咨询 + 项目合作表单</h2>
+        <h3>课程咨询</h3>
+        <p>欢迎填写下方信息，我们将在 1 个工作日内联系您。</p>
+        <form>
+          <input type="text" placeholder="姓名" />
+          <input type="tel" placeholder="联系电话" />
+          <select>
+            <option>咨询方向</option>
+            <option>机械设计培训</option>
+            <option>嵌入式开发培训</option>
+            <option>自动化项目合作</option>
+          </select>
+          <textarea placeholder="请描述您的需求（课程目标 / 项目背景 / 预算范围等）"></textarea>
+          <button type="button">提交咨询</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 尔理工程教育 / 尔理自动化 · All rights reserved.
+    </footer>
+  </body>
+</html>
