@@ -41,6 +41,12 @@ function renderList(targetId, list) {
   el.innerHTML = list.map((item) => `<li>${item}</li>`).join('');
 }
 
+function renderStats(targetId, stats) {
+  const el = document.getElementById(targetId);
+  if (!el) return;
+  el.innerHTML = stats.map((item) => `<div><strong>${item.value}</strong><span>${item.label}</span></div>`).join('');
+}
+
 function renderFlow(targetId, list) {
   const el = document.getElementById(targetId);
   if (!el) return;
@@ -90,6 +96,9 @@ async function init() {
       const cta = $('#hero-cta');
       if (cta) cta.textContent = data.home.ctaText;
       renderCards('home-entries', data.home.businessEntrances, 'button');
+      renderCards('solution-cards', data.home.solutions);
+      setText('home-about', data.home.aboutText);
+      renderStats('home-stats', data.home.stats);
     }
 
     if (page === 'mechanical') {
