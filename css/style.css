@@ -73,3 +73,15 @@ a { color: inherit; text-decoration: none; }
   .site-nav.open { display: flex; }
   .header-inner { flex-wrap: wrap; }
 }
+.section-alt { background: #fff; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.about-band { display: grid; grid-template-columns: 1.5fr 1fr; gap: 24px; align-items: center; }
+.about-band p { color: var(--muted); line-height: 1.9; margin: 0; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.stats div { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 14px; text-align: center; box-shadow: 0 8px 22px rgba(18, 66, 118, .08); }
+.stats strong { display: block; color: var(--accent); font-size: 1.7rem; margin-bottom: 6px; }
+.stats span { color: var(--muted); font-size: .9rem; }
+@media (max-width: 860px) {
+  .about-band { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: 1fr; }
+}
